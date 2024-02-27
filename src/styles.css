@@ -1,0 +1,13 @@
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: green;
+}
+
+.task-list li:not(.completed) {
+    color: red;
+}
